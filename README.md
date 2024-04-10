@@ -25,3 +25,23 @@ fi
 sleep .1
 done
 ````
+
+### 2 - [create draft image for fill hole in web desine]
+````
+#!/bin/zsh
+
+width=$1
+height=$2
+avg=$(((width + height) / 80 ))
+
+convert -size ${width}x${height} xc: +noise Random -quality 80 output.jpg
+
+convert output.jpg -fill xc:white -draw "rectangle $avg,$avg $((width - avg)),$((height - avg))" output.jpg
+
+convert output.jpg -gravity center -bordercolor yellow -border $((avg/4)) -pointsize $((width/10)) -annotate +0+0 "${width}x${height}" output.jpg
+
+````
+
+1- example: (path of file) 500 500 (this create a draft image with size 500x500 px)
+
+
