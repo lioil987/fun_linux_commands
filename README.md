@@ -14,7 +14,7 @@ dragon-and-cow     koala              snowman            www
 duck               kosh               stegosaurus'
 
 c=1;l=1; while true; do
-cowsay -f `echo $temp | awk '{print $'"$l}" | sed -n "${c}p"` "Hello!!"
+cowsay -f `echo $temp | awk '{print $'"$l}" | sed -n "${c}p"` 'Hello!!'
 c=$((c + 1))
 if [ $c -ge 13 ]; then
 l=$((l+1));c=1
