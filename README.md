@@ -1,6 +1,6 @@
 ### first [show all shape of cowsay command]:
 ````shell
-temp = 'apt                elephant           luke-koala         stimpy           
+temp='apt                elephant           luke-koala         stimpy           
 bud-frogs          elephant-in-snake  mech-and-cow       suse             
 bunny              eyes               milk               three-eyes       
 calvin             flaming-sheep      moofasa            turkey           
