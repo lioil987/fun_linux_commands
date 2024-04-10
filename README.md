@@ -28,7 +28,7 @@ done
 
 ### 2 - [create draft image for fill hole in web design]
 ````
-#!/bin/zsh
+#!/bin/bash
 
 width=$1
 height=$2
