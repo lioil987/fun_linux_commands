@@ -1,4 +1,4 @@
-### first [show all shape of cowsay command]:
+### 1 - [show all shape of cowsay command]:
 ````shell
 temp='apt                elephant           luke-koala         stimpy           
 bud-frogs          elephant-in-snake  mech-and-cow       suse             
@@ -26,7 +26,7 @@ sleep .1
 done
 ````
 
-### 2 - [create draft image for fill hole in web desine]
+### 2 - [create draft image for fill hole in web design]
 ````
 #!/bin/zsh
 
@@ -42,6 +42,7 @@ convert output.jpg -gravity center -bordercolor yellow -border $((avg/4)) -point
 
 ````
 
-1- example: (path of file) 500 500 (this create a draft image with size 500x500 px)
+1. example: (path of file) 500 500 
+- (this create a draft image with size 500x500 px)
 
 
