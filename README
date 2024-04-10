@@ -1,4 +1,4 @@
 ### first [show all shape of cowsay command]:
-````script
+````shell
 echo hello
 ````
